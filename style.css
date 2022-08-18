@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    background-color: hsl(30, 38%, 92%);
+    margin: auto;
+    width: 1440px;
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-div {
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 440px;
+    border-radius: 20px;
+    display: flex;
+    
+}
+
+
+.image {
+    width: 300px;
+    height: 440px;
+    border-radius: 20px 0 0 20px;
+}
+
+
+.mobile-image {
+    display: none;
+}
+
+
+.product-description {
+    background-color: hsl(0, 0%, 100%); 
+    width: 300px;
+    height: 440px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    font-weight: 500px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 2px;
+}
+
+
+.title {
+    margin: 20px 0;
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700px;
+    font-size: 30px;
+
+}
+
+
+.main-description {
+    font-family: "Montserrat", serif;
+    font-weight: 500px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+
+}
+
+
+.price {
+    margin: 30px 0 20px;
+}
+
+
+.new-price {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700px;
+    font-size: 30px;
+}
+
+
+.old-price {
+    margin-left: 30px;
+    font-family: serif;
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+}
+
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    font-family: "Montserrat", serif;
+    font-weight: 700px;
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(158, 55%, 16%);
+}
+
+
+.order {
+    padding: 10px;
+}
+
+
+.cart {
+    margin-right: 8px;
+}   
+
+
+@media screen and (max-width: 375px) {
+
+main {
+    width: 365px;
+    height: 710px;
+}
+.main-div {
+    background-color: hsl(30, 38%, 92%);
+    display: block;
+    width: 350px;
+    height: 700px;
+    padding: 20px;
+}
+.image {
+    display: none;
+}
+.mobile-image {
+    display: flex;
+    width: 320px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+}
+.product-description {
+    width: 320px;
+    height: 410px;
+    border-radius: 0 0 20px 20px;
+}
+
+
+}
+
+
