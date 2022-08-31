@@ -78,6 +78,7 @@ main {
 
 
 .price {
+    position: relative;
     margin: 30px 0 20px;
 }
 
@@ -91,14 +92,18 @@ main {
 
 
 .old-price {
+    position: absolute;
+    top: 9px;
     margin-left: 30px;
     font-family: serif;
-    color: hsl(228, 12%, 48%);
     font-size: small;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
 }
 
 
 button {
+    position: relative;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     border: none;
@@ -116,17 +121,26 @@ button:hover {
 }
 
 
-.order {
+/* .order {
     padding: 10px;
-}
+} */
 
 
 .cart {
-    margin-right: 8px;
+    top: 17px;
+    position: absolute;
+    left: 85px;
 }   
 
 
-@media screen and (max-width: 375px) {
+button span {
+    top: 17px;
+    position: absolute;
+    left: 105px;
+}
+
+
+@media screen and (max-width: 1000px) {
 
 main {
     width: 365px;
