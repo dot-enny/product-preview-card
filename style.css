@@ -7,9 +7,9 @@
 
 main {
     background-color: hsl(30, 38%, 92%);
+    max-width: 1000px;
+    height: 760px;
     margin: auto;
-    width: 1440px;
-    height: 790px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,11 +140,12 @@ button span {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
 
 main {
-    width: 365px;
-    height: 710px;
+    max-width: 365px;
+    margin: 0 auto;
+    height: 702px;
 }
 .main-div {
     background-color: hsl(30, 38%, 92%);
@@ -167,7 +168,6 @@ main {
     height: 410px;
     border-radius: 0 0 20px 20px;
 }
-
 
 }
 
