@@ -7,8 +7,8 @@
 
 main {
     background-color: hsl(30, 38%, 92%);
-    max-width: 1000px;
-    height: 760px;
+    max-width: 100vw;
+    height: 100vh;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -22,7 +22,6 @@ main {
     height: 440px;
     border-radius: 20px;
     display: flex;
-    
 }
 
 
