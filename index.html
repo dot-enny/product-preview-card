@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +9,42 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Fraunces">
 </head>
+
 <body>
     <main>
-        <div class="main-div">
+        <!-- PRODUCT__IMAGE -->
+        <div>
+            <img src="/images/image-product-desktop.jpg" alt="image of perfume" class="product__image--desktop">
+            <img src="/images/image-product-mobile.jpg" alt="image of perfume" class="product__image--mobile">
+        </div>
+        
+        <!-- PRODUCT__DESCRIPTION -->
+        <div class="product__description">
+            <span>
+                <h1 class="product__description--header">PERFUME</h1>
+                <h2 class="product__description--title">
+                    <b>Gabrielle</b><br>
+                    Essence Eau <br>
+                    De parfum <br>
+                </h2>
+                <p class="product__description--body">
+                    A floral, solar and voluptuous <br>
+                    interpretation composed by <br>
+                    Olivier Polge, Perfumer-Creator <br>
+                    for the House of CHANEL.
+                </p>
+                <p class="product__price-container">
+                    <span class="product__price--new-price"><b>$149.9</b></span>
+                    <span class="product__price--old-price">$169.9</span>
+                </p>
 
-            <div class="image-div">
-                <img src="/images/image-product-desktop.jpg" alt="image of perfume" class="image">
-                <img src="/images/image-product-mobile.jpg" alt="image of perfume" class="mobile-image">
-            </div>
-
-            <div class="product-description">
-                <span>
-                    <h1 class="header">PERFUME</h1>
-                    <h2 class="title">
-                        <b>Gabrielle</b><br>
-                        Essence Eau <br>
-                        De parfum <br>
-                    </h2>
-                    <p class="main-description">
-                        A floral, solar and voluptuous <br>
-                        interpretation composed by <br>
-                        Olivier Polge, Perfumer-Creator <br>
-                        for the House of CHANEL.
-                    </p>
-                    <p class="price">
-                        <span class="new-price"><b>$149.9</b></span>
-                        <span class="old-price">$169.9</span>
-                    </p>
-
-                        <button> 
-                            <img src="/images/icon-cart.svg" alt="cart icon" class="cart">
-                            <span>Add to cart</span>
-                        </button>
-                </span>        
-            </div>            
-
+                <button class="add-to-cart__button">
+                    <img src="/images/icon-cart.svg" alt="cart icon" class="add-to-cart__button--cart-img">
+                    <span>Add to cart</span>
+                </button>
+            </span>
         </div>
     </main>
 </body>
+
 </html>
