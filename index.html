@@ -13,25 +13,25 @@
 <body>
     <main>
         <!-- PRODUCT__IMAGE -->
-        <div>
-            <img src="/images/image-product-desktop.jpg" alt="image of perfume" class="product__image--desktop">
-            <img src="/images/image-product-mobile.jpg" alt="image of perfume" class="product__image--mobile">
+        <div class="product__image-container">
+            <img src="/images/image-product-desktop.jpg" alt="perfume" class="product__image--desktop">
+            <img src="/images/image-product-mobile.jpg" alt="perfume" class="product__image--mobile">
         </div>
         
         <!-- PRODUCT__DESCRIPTION -->
         <div class="product__description">
-            <span>
+            <div>
                 <h1 class="product__description--header">PERFUME</h1>
                 <h2 class="product__description--title">
-                    <b>Gabrielle</b><br>
-                    Essence Eau <br>
+                    <b>Gabrielle</b><br class="desktop">
+                    Essence <br class="mobile"> Eau <br class="desktop">
                     De parfum <br>
                 </h2>
                 <p class="product__description--body">
                     A floral, solar and voluptuous <br>
-                    interpretation composed by <br>
-                    Olivier Polge, Perfumer-Creator <br>
-                    for the House of CHANEL.
+                    interpretation composed by <br class="desktop">
+                    Olivier <br class="mobile"> Polge, Perfumer-Creator <br class="desktop">
+                    for the House of <br class="mobile"> CHANEL.
                 </p>
                 <p class="product__price-container">
                     <span class="product__price--new-price"><b>$149.9</b></span>
@@ -39,10 +39,10 @@
                 </p>
 
                 <button class="add-to-cart__button">
-                    <img src="/images/icon-cart.svg" alt="cart icon" class="add-to-cart__button--cart-img">
+                    <img src="/images/icon-cart.svg" alt="" class="add-to-cart__button--cart-img">
                     <span>Add to cart</span>
                 </button>
-            </span>
+            </div>
         </div>
     </main>
 </body>
