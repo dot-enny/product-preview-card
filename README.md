@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://olaniyaneniola.github.io/product-preview-card/)
 
 ### Built with
 
@@ -28,6 +28,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Olaniyan Eniola](https://github.com/OlaniyanEniola)
+- Twitter - [@enny_________](https://twitter.com/enny_________)
 
