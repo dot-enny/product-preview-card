@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://olaniyaneniola.github.io/product-preview-card/)
+- Live Site URL: [live site](https://olaniyaneniola.github.io/product-preview-card/)
 
 ### Built with
 
