@@ -28,6 +28,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Olaniyan Eniola](https://github.com/OlaniyanEniola)
+- Github - [Enny](https://github.com/OlaniyanEniola)
 - Twitter - [@enny_________](https://twitter.com/enny_________)
+- Linkedin - [Olaniyan Eniola](https://www.linkedin.com/in/eniola-olaniyan-63a578263)
 
