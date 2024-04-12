@@ -28,7 +28,7 @@ Users should be able to:
 
 ## Author
 
-- Github - [Enny](https://github.com/OlaniyanEniola)
-- Twitter - [@enny_________](https://twitter.com/enny_________)
+- Github - [dot-enny](https://github.com/dot-enny)
+- Twitter - [@dot_enny](https://twitter.com/dot_enny)
 - Linkedin - [Olaniyan Eniola](https://www.linkedin.com/in/eniola-olaniyan-63a578263)
 
